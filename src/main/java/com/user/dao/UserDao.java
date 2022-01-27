@@ -134,6 +134,7 @@ public class UserDao {
 		return rowDeleted;
 	}
 
+	//custom SQL Exception message....
 	private void printSQLException(SQLException ex) {
 		for (Throwable e : ex) {
 			if (e instanceof SQLException) {
